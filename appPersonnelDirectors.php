@@ -1,9 +1,6 @@
 <?php
-include "src/class/personnels/ClassPersonnel.php";
-include "src/class/personnels/actors/ClassDirectors.php";
+include "vendor/autoload.php";
 
-
-use personnels\Personnel;
-use actors\directors\Directors;
+use lib\Connexion;
 
 ?>

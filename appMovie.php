@@ -1,6 +1,12 @@
-<?php 
-include "src/class/movies/ClassMovie.php";
+<?php
+include "../vendor/autoload.php";
+include "lib/ClasseConnexion.php";
 
-use movies\Movie;
+use lib\ClasseConnexion;
+
+$newObjetConnexion = new ClasseConnexion ("","","","","");
+
+var_dump($newObjetConnexion);
+die();
 
 ?>
