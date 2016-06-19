@@ -35,7 +35,7 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- =================================================================================================== -->
   </head>
-  <body class="bg-danger">
+  <body>
     <main>
       <!-- =================================================================================================== -->
       <!--                                            HEADER                                                   -->
@@ -44,7 +44,7 @@
         <div class="container-fluid"> <!-- start container-fluid dans le header -->
           <div class="row"> <!-- start de la row du container-fluid dans le header -->
             <div class="col-xs-12"> <!-- start du col-xs-12 de la row issu du container-fluid dans le header -->
-                <hgroup class="well">
+                <hgroup class="entete">
                   <h1 class="text-capitalize text-info text-center">NewProject !!</h1>
                   <h2 class="text-center"><small>Les liens qui suivront permettent de tester plusieurs méthodes en fonction d'un contexte bien précis. Tous seras expliqués</small></h2>
                 </hgroup>
@@ -66,25 +66,41 @@
             </div> <!-- end col-xs-12 du container dans la section -->
           </div> <!-- end de la row du container dans la section -->
           <div class="row row2">
-            <div class="col-xs-12 col-lg-offset-2 col-lg-8">
-              <article class="well">
-                <legend class="text-right text-warning">appMovie</legend>
+            <div class="col-xs-12">
+              <article class="alert alert-info">
+                <legend class="text-warning">appMovie</legend>
                   <p>Appli sur les films<br />
                     <a href='src/class/movies/ClassMovie.php'>Clique ici...</a>
                   </p>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
                   <footer class="pull-right">src/class/movies/<strong><span class="text-success">ClassMovie.php</span></strong></footer><br />
               </article>
             </div>
             <!-- =================================================================================================== -->
             <div class="col-xs-12">
-              <article class="well">
-                <legend class="text-right text-warning">appSupportMovie</legend>
+              <article class="alert alert-info">
+                <legend class="text-warning">appSupportMovie</legend>
                   <p>Appli sur les le supports des films<br />
                     <a href='src/class/movies/supports/ClassBlueRay.php'>BlueRay</a> -
                     <a href='src/class/movies/supports/ClassDvd.php'>Dvd</a> -
                     <a href='src/class/movies/supports/ClassDvdRom.php'>DvdRom</a>
                   </p>
-                  <footer>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
+                  <footer class="pull-right">
                     src/class/movies/supports/<br />
                       { <strong><span class="text-success">ClassBlueRay.php</span></strong> |
                       <strong><span class="text-success">ClassDvd.php</span></strong> |
@@ -93,42 +109,74 @@
               </article>
             </div>
             <!-- =================================================================================================== -->
-            <div class="col-xs-12 col-lg-offset-2 col-lg-8">
-              <article class="well">
-                <legend class="text-right text-warning">appPersonnelActors</legend>
+            <div class="col-xs-12">
+              <article class="alert alert-info">
+                <legend class="text-warning">appPersonnelActors</legend>
                   <p>Appli sur les acteurs<br />
                     <a href='src/class/personnels/actors/ClassActors.php'>Clique ici...</a>
                   </p>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
                   <footer class="pull-right">src/class/personnels/actors/<strong><span class="text-success">ClassActors.php</span></strong></footer><br />
               </article>
             </div>
             <!-- =================================================================================================== -->
-            <div class="col-xs-12 col-lg-6">
-              <article class="well">
-                <legend class="text-right text-warning">appPersonnelActorsFilm</legend>
+            <div class="col-xs-12">
+              <article class="alert alert-info">
+                <legend class="text-warning">appPersonnelActorsFilm</legend>
                   <p>Appli sur les acteurs qui jouent dans des films<br />
                     <a href='src/class/personnels/actors/roles/ClassActorsFilm.php'>Clique ici...</a>
                   </p>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+  Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+  Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+  Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+  Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
                   <footer class="pull-right">src/class/personnels/actors/roles/<strong><span class="text-success">ClassActorsFilm.php</span></strong></footer><br />
               </article>
             </div>
             <!-- =================================================================================================== -->
-            <div class="col-xs-12 col-lg-6">
-              <article class="well">
-                <legend class="text-right text-warning">appPersonnelActorsSerie</legend>
+            <div class="col-xs-12">
+              <article class="alert alert-info">
+                <legend class="text-warning">appPersonnelActorsSerie</legend>
                   <p>Appli sur les acteurs qui jouent dans des séries<br />
                     <a href='src/class/personnels/actors/roles/ClassActorsSerie.php'>Clique ici...</a>
                   </p>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
                   <footer class="pull-right">src/class/personnels/actors/roles/<strong><span class="text-success">ClassActorsSerie.php</span></strong></footer><br />
               </article>
             </div>
             <!-- =================================================================================================== -->
-            <div class="col-xs-12 col-lg-offset-2 col-lg-8">
-              <article class="well">
-                <legend class="text-right text-warning">appPersonnelDirector</legend>
+            <div class="col-xs-12">
+              <article class="alert alert-info">
+                <legend class="text-warning">appPersonnelDirector</legend>
                   <p>Appli sur les Réalisateurs
                     <a href='src/class/personnels/directors/ClassDirectors.php'>Clique ici...</a>
                   </p>
+                  <p class="styleColumn">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien sit amet risus pulvinar vulputate quis quis ligula. Sed id tortor vel velit congue facilisis. Nam placerat libero lorem, tristique vulputate urna viverra quis. Nam cursus mauris orci, in semper mi porttitor non. Vestibulum ac quam convallis, tincidunt augue at, suscipit ante. Mauris mi urna, condimentum vitae purus eget, vulputate varius felis. Sed eget sem facilisis, sagittis ante ac, dictum nibh. Donec sollicitudin nulla lacus, in venenatis dolor fermentum nec. Nunc nunc diam, dictum non fermentum a, pulvinar eget ante. Suspendisse ullamcorper, mi eu volutpat lobortis, ligula nisl mollis diam, nec varius enim ligula quis neque. Nam et nunc in est rhoncus varius. Duis ut tempor lacus, sed porta felis.
+Aliquam posuere ipsum vitae viverra malesuada. Quisque quis mauris maximus, pretium ligula vitae, accumsan arcu. In ullamcorper tellus id est tempus, ut placerat metus elementum. Quisque interdum hendrerit mi, eget sodales risus scelerisque vel. Quisque vitae lacus mattis ex accumsan molestie vel a nisl. Aliquam convallis orci at commodo gravida. Mauris ornare nunc lectus, quis ultricies turpis pellentesque at. Nunc odio lectus, laoreet eu dictum eu, blandit at dolor. Quisque et lorem arcu.
+Nullam dictum placerat diam vitae tincidunt. Pellentesque sapien lacus, luctus quis sollicitudin nec, aliquam vitae arcu. Fusce pretium tristique ex quis pretium. Phasellus et orci interdum, tristique turpis nec, suscipit sapien. Suspendisse condimentum purus vitae lorem pharetra euismod. Donec rhoncus enim non lacinia porta. Nam iaculis condimentum nisi, quis scelerisque massa blandit at. Donec congue augue nibh, in euismod diam congue et. Donec quis pharetra nisl, semper auctor sapien. Phasellus dictum iaculis ante. Nam feugiat nisi quis lacus lacinia condimentum. Sed rhoncus luctus sapien, in viverra sem tincidunt in. Integer id nunc fermentum est viverra auctor.
+Nunc mattis ut tortor ut fringilla. Integer semper feugiat massa nec eleifend. Aliquam sed lorem massa. Nunc dapibus odio vitae porta lobortis. Pellentesque condimentum ante vel est scelerisque dignissim. Nam fringilla sem nec metus sagittis efficitur. Curabitur maximus leo non pellentesque tempor. In volutpat sed est ut elementum. Nullam rutrum dui a hendrerit porttitor. Duis porta egestas elit eu blandit. Donec placerat arcu sit amet sagittis ullamcorper.
+Donec luctus est sapien, finibus dictum eros luctus tempus. Sed faucibus urna sit amet lacus tempor bibendum. Nulla hendrerit libero laoreet, fringilla erat sit amet, vestibulum nisl. Curabitur vitae bibendum tortor, quis varius erat. Vivamus tortor dui, accumsan sit amet efficitur vel, convallis nec odio. Proin iaculis elementum justo, id commodo libero tempus ut. Donec eget volutpat nisi.
+                  </p>
+                  <br />
                   <footer class="pull-right">src/class/personnels/directors/<strong><span class="text-success">ClassDirectors.php</span></strong></footer><br />
               </article>
             </div>
@@ -143,7 +191,7 @@
       <div class="container-fluid"> <!-- start container-fluid dans le footer -->
         <div class="row"> <!-- start de la row du container-fluid dans le footer -->
           <div class="col-xs-12"> <!-- start du col-xs-12 de la row issu du container-fluid dans le footer -->
-            <div class="well">
+            <div class="piedDePage">
               <h4 class="text-center text-capitalize text-info">Quelques questions pour éveiller notre curiosité !</h4>
               <p class="text-center">
                 <a href="utileCuriosite.php">Cliquez vite sur moi afin d'accéder à la page traitant sur des questions intéréssantes </a>

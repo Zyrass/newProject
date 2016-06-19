@@ -1,0 +1,74 @@
+/*******************************************************************************
+ * Auteur : Alain Guillon
+ * Alias : Zyrass
+ * Version : 0.1
+ * Dernière modification : 19/06/2016
+ ******************************************************************************/
+
+/*******************************************************************************
+ * Description : Je définis ici la couleur de mon fond d'écran
+ * @param [background-color] -> Couleur du fond
+ */
+body {
+  background-color: #8a6d3b;
+}
+
+/*******************************************************************************
+ * Description : Je définis la couleur du surlignage d'un quelconque élément.
+ * @param [background-color] -> Couleur de fond
+ * @param [color] -> Couleur du texte
+ * @param [text-shadow] -> Ombrage du texte
+ */
+::selection {
+  background-color: #8a6d3b;
+  color: #fcf8e3;
+  text-shadow: 0 1px #000;
+}
+
+/*******************************************************************************
+ * Description : Je définis le css du header
+ * @param [height] -> Hauteur de l'entête
+ * @param [width] -> Largeur de l'entête
+ * @param [padding] -> Marge intérieur
+ * @param [background-color] -> Fond du header
+ */
+.entete {
+  height: 200px;
+  width: 100%;
+  padding: 25px;
+  background-color: #fcf8e3;
+}
+
+/*******************************************************************************
+ * Description : J'insère un espacement entre le header et la section
+ * @param [margin-top] -> Applique une marge haute exterieur
+ */
+section {
+  margin-top: 20px;
+}
+
+/*******************************************************************************
+* Description : Je définis le css du header
+* @param [height] -> Hauteur du footer
+* @param [width] -> Largeur du footer
+* @param [padding] -> Marge intérieur
+* @param [background-color] -> Fond du pied de page
+*/
+.piedDePage {
+  height: 150px;
+  width: 100%;
+  padding: 50px;
+  background-color: #fcf8e3;
+}
+
+/*******************************************************************************
+ * Description : Dispatch un gros texte en plusieurs colonnes afin de facilité la lecture
+ * @param [column-count] -> définit le nombre de colonne souhaité.
+ * @param [column-gap] -> Définit la largeur entre les colonnes
+ * @param [column-rule] -> Applique une bordure entre mes colonnes
+ */
+.styleColumn {
+  column-count: 3;
+  column-gap: 50px;
+  column-rule: 1px solid #8a6d3b;
+}
